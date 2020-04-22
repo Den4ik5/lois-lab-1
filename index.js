@@ -37,7 +37,7 @@ function check(formula) {
         return;
     }
 
-    messageElement.innerHTML = isSKNF(formula) ? "Формула является СКНФ" : "Формула является СКНФ";
+    messageElement.innerHTML = isSKNF(formula) ? "Формула является СКНФ" : "Формула не является СКНФ";
 }
 
 function isSKNF(formula) {
